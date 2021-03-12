@@ -226,7 +226,6 @@ section{
 #p-btn:hover{
     background-color: white;
     color: black;
-    border: 1px solid black;
 }
 .c-container{
     display: flex;
