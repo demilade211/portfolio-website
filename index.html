@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="hero">
+        <header>
+            <div class="logo"><h1>Afo</h1></div>
+            <div class="burger" onclick="toggleNav(1)">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+            <div class="d-nav-con">
+                <nav class="d-nav">
+                    <ul>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="m-nav">
+                <nav class="mobile-nav">
+                
+                </nav>
+            </div>
+            
+        </header>
+        <div class="in-hero">
+            <div class="hero-text h-border">
+                <h1> 
+                    <a href="" class="typewrite" data-period="2000" data-type='[ "Hi, My name is Afolabi Ogunbanwo.", "I am a Full Stack Developer.", "I build responsive webpages." ]'>
+                        <span class="wrap"></span>
+                      </a>
+                </h1>
+            </div>
+            <div class="hero-btn h-border">
+                <input type="button" value="Hire me" id="btn" class="animate__animated animate__heartBeat animate__delay-4s animate__repeat-3">
+            </div>
+        </div>
+    </div>
+    <section class="sec1" id="skills">
+        <h1 class="title" style="margin-bottom: 70px;">Skills</h1>
+        <div class="skill-cards">
+            <div class="card">
+                <div class="image">
+                    <img src="img/images.png" alt="">
+                </div>
+                <div class="card-title">
+                    <h2>HTML 5</h2>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image">
+                    <img src="img/css.png" alt="">
+                </div>
+                <div class="card-title">
+                    <h2>CSS 3</h2>
+                </div>
+            </div>
+            <div class="card">
+                <div class="image">
+                    <img src="img/js.jpg" alt="">
+                </div>
+                <div class="card-title">
+                    <h2>JavaScript</h2>
+                </div>
+            </div>
+        </div>  
+    </section>
+    <section id="portfolio">
+        <h1 class="title" style="margin-bottom: 70px;">Portfolio</h1>
+        <div class="in-sec">
+            <div class="p-image">
+                <div class="image-box1">
+                    
+                </div>
+            </div>
+            <div class="description">
+                <div class="project-name " in-desc>
+                    <h1>Udemy Clone</h1>
+                </div>
+                <div class="project-description" in-desc>
+                    <p>This is a Responsive website that looks exactly like the udemy website</p>
+                </div>
+                <div class="view-btn" in-desc>
+                    <a href="https://demilade211.github.io/udemy-clone/"><button id="p-btn">View</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="in-sec">
+            <div class="p-image">
+                <div class="image-box2">
+                    
+                </div>
+            </div>
+            <div class="description">
+                <div class="project-name " in-desc>
+                    <h1>Self Assessment App</h1>
+                </div>
+                <div class="project-description" in-desc>
+                    <p>This is an app that guides you to live a better life</p>
+                </div>
+                <div class="view-btn" in-desc>
+                    <a href="https://demilade211.github.io/self-asessment-app/"><button id="p-btn">View</button></a>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="in-sec">
+            <div class="p-image">
+                <div class="image-box3">
+                    
+                </div>
+            </div>
+            <div class="description">
+                <div class="project-name " in-desc>
+                    <h1>Rando</h1>
+                </div>
+                <div class="project-description" in-desc>
+                    <p>This is a betting app that uses random Numbers</p>
+                </div>
+                <div class="view-btn" in-desc>
+                    <a href="https://demilade211.github.io/Rando/#"><button id="p-btn">View</button></a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>
